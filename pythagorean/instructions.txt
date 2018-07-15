@@ -1,0 +1,35 @@
+--[[ 
+		the distance from each other that objects have 
+  to be in order to touch
+  
+]]--
+touch_dist = 15
+
+--[[ 
+			the collision detection
+			logic
+]]--
+     
+--[[     
+function collision(obj1, obj2)
+   	a = obj1.x - obj2.x
+   	b = obj1.y - obj2.y
+   	distance = sqrt(a*a + b*b)
+   	if distance <= touch_dist then
+   		 -- do stuff
+   	else 
+   			-- do stuff
+   	end -- end if statement
+ 
+end -- end collision function
+
+
+
+--[[
+	to start detection insert the 
+	object names that you want to
+	check for collision. 
+	example below
+	]]--
+	
+	--collision(player, coin)
