@@ -1,8 +1,7 @@
 --[[
 to use collision function youll
-need these 4 characteristics of
-the two objects that you want to
-make collidable
+need to add these 4 characteristics to the two objects that you want to
+make collidable (objects x position, object y position ,and objects height and width)
 
 example bellow:
 player ={
