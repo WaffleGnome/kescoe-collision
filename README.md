@@ -1,4 +1,4 @@
-# kescoe-collision
+# kescoe-pico8-collision
 collision functions for the pico8 fantasy console
 
 
